@@ -1,0 +1,31 @@
+# Datos y modelos (pesados: se descargan o se generan)
+data/*
+!data/README.md
+models/*
+!models/README.md
+*.npz
+*.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Base de datos local del historial
+*.db
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
