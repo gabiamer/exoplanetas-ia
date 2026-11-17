@@ -5,6 +5,7 @@ models/*
 !models/README.md
 *.npz
 *.csv
+!docs/*.csv
 *.zip
 
 # Python
