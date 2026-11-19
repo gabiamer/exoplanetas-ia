@@ -5,6 +5,7 @@ models/*
 !models/README.md
 *.npz
 *.csv
+!docs/*.csv
 *.zip
 
 # Python
@@ -29,3 +30,7 @@ dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# El modelo final sí se versiona (pesa menos de 1 MB)
+!models/modelo_v1.ubj
+!models/modelo_v1.json
