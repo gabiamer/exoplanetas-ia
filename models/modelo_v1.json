@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "algoritmo": "XGBoost",
+  "umbral": 0.10148122161626816,
+  "hiperparametros": {
+    "n_estimators": 400,
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.3,
+    "min_child_weight": 1,
+    "reg_lambda": 1.0,
+    "sigma": 2
+  },
+  "metricas": {
+    "validacion_cruzada": {
+      "ap": 0.737432198771636,
+      "umbral": 0.10148122161626816,
+      "recall": 0.6756756756756757,
+      "precision": 0.78125,
+      "f1": 0.7246376811594203,
+      "matriz_confusion": {
+        "vn": 5043,
+        "fp": 7,
+        "fn": 12,
+        "vp": 25
+      },
+      "estrellas": 5087,
+      "con_planeta": 37
+    },
+    "prueba": {
+      "ap": 0.6727450980392158,
+      "umbral": 0.10148122161626816,
+      "recall": 0.8,
+      "precision": 0.6666666666666666,
+      "f1": 0.7272727272727273,
+      "matriz_confusion": {
+        "vn": 563,
+        "fp": 2,
+        "fn": 1,
+        "vp": 4
+      },
+      "estrellas": 570,
+      "con_planeta": 5
+    }
+  },
+  "entrenado_con": "exoTrain.csv (5.087 estrellas, 37 con planeta)"
+}
