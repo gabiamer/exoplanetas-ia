@@ -32,8 +32,8 @@ exoplanetas-ia/
 | Fase | Fechas | Estado |
 |---|---|---|
 | 1. Comprensión del negocio y de los datos | 10 nov | Completa |
-| 2. Preparación de datos | 11 – 13 nov | En curso |
-| 3. Ingeniería del modelo | 14 – 17 nov | Pendiente |
+| 2. Preparación de datos | 11 – 13 nov | Completa |
+| 3. Ingeniería del modelo | 14 – 17 nov | En curso (mejor modelo hasta ahora: XGBoost, AP 0,70) |
 | 4. Evaluación del modelo | 18 – 19 nov | Pendiente |
 | 5. Despliegue: backend, API REST y frontend | 19 – 21 nov | Pendiente |
 | 6. Monitoreo y mantenimiento | 21 – 22 nov | Pendiente |
