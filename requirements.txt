@@ -3,6 +3,8 @@ pandas
 scipy
 scikit-learn
 imbalanced-learn
+xgboost
+torch
 matplotlib
 kagglehub
 pytest
